@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Word Guess Game</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+        <script type="text/javascript" src="assets/javascript/game3.js"></script>
+
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 class="Cars">Luxury Car Brands</h1>
+            <h1 class="wordGuessGame">Word Guess Game</h1>
+        
+            <button type="button" class="btn btn-secondary" onclick="startGame()">Click Me To Play!</button>
+
+        </div>
+
+        <div id="game" class="container">
+
+            <div class="row">
+                <div class="col-md-1">
+                    
+                </div>
+
+                <div class="col-md-6 gameSection">
+                    <p><span id="wordBlanks"></span></p>
+                    <p>Wins: <span id="wins"></span></p>
+                    <p>Losses: <span id="losses"></span></p>
+                    <p>Guesses Remaining: <span id="guessesLeft"></span></p>
+                    <p>Letters Guessed: <span id="letterGuessed"></span></p>
+                </div>
+
+                <div class="col-md-4">
+
+                    <img src="https://media.giphy.com/media/11eMJrshugz1PW/giphy.gif" alt="Car" class="img1">
+
+                </div>
+            </div>  <!--row-->
+        </div> <!--container-->
+        
+    </body>
+</html>

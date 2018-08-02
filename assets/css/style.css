@@ -1,0 +1,34 @@
+.jumbotron {
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-image: url("images/car/christmas-dark.png");
+}
+
+.gameSection {
+    background-color: rgb(253,215,109);
+    padding: 40px;
+    margin: 40px;
+    font-size: 32px;
+    border: 2px solid black;
+}
+
+.img1 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+
+}
+
+img {
+    margin-top: 50px;
+}
+
+#wordBlanks {
+    letter-spacing: 5px;
+}
